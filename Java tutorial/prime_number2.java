@@ -5,7 +5,7 @@ public class prime_number2 {
     public static void main(String[] args) {
         int f = 0;
         System.out.println("Prime numbers : ");
-        for(int n=1;n<=999;n++) {
+        for(int n=1;n<=99;n++) {
             for (int i = 1; i <= n; i++) {
                 if (n % i == 0) {
                     f++;
