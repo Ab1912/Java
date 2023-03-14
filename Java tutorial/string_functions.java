@@ -1,6 +1,6 @@
 //Program to Count Uppercase,Lowercase,Space,Number,Vowels and Symbols in a String
 
-public class stringfunctions {
+public class string_functions {
     public static void main(String[] args) {
         
         StringBuilder ab =  new StringBuilder("ABI Age is 36@# Java Tutorial 12$");
