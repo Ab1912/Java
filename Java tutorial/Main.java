@@ -1,33 +1,20 @@
-import java.util.Scanner;
-
-class small {
-    private int m,n;
-    small(int x, int y) {
-        this.m = x;
-        this.n = y;
-    }
-    int smallest() {
-        if (m < n) {
-            return m;
-        }
-        else {
-            return n;
-        }
-    }
-    void display() {
-        int small = smallest();
-        System.out.println("Smallest number is : "+small);
-    }
-}
-
+/*  65-90  A-Z
+    97-122 a-z
+    48-57  0-9
+    Space  32 */
 public class Main {
-    public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
-        System.out.println("Enter  values : ");
-        int a = in.nextInt();
-        int b = in.nextInt();
-        small obj = new small(a,b);
-        obj.display();
-        in.close();
+    public static void main(String args[]) {
+        for (int i = 65; i <= 90; i++) {
+            System.out.print(i+" "+(char)i+"\n");
+        }
+        for (int i = 97; i <= 122; i++) {
+            System.out.print(i+" "+(char)i+"\n");
+        }
+        for (int i = 48; i <= 57; i++) {
+            System.out.print(i+" "+(char)i+"\n");
+        }
+        for (int i = 32; i <= 32; i++) {
+            System.out.print(i+" "+(char)i+"\n");
+        }
     }
 }
